@@ -16,7 +16,7 @@
 <h2>How to Use</h2>
 <ol>
   <li><strong>Enter Job Description:</strong> Copy and paste the job description in the provided text area.</li>
-  <li><strong>Upload Resume:</strong> Upload your resume in PDF or DOCX format.</li>
+  <li><strong>Upload Resume:</strong> Upload your resume in PDF.</li>
   <li><strong>Select an Option:</strong>
     <ul>
       <li><strong>Resume Summary:</strong> Get a summary of the resume.</li>
