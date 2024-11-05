@@ -41,5 +41,4 @@ __pycache__/
 # Pytest Cache
 .pytest_cache/
 
-# requirement files
-requirements.txt
+
