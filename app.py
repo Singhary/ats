@@ -61,8 +61,8 @@ def input_pdf_setup(uploaded_file):
 st.markdown("### 📄 Job Description")
 input_text = st.text_area("Enter the job description...", height=150, key="input_text")
 
-st.markdown("### 📂 Upload Your Resume (PDF or DOCX)")
-uploaded_file = st.file_uploader("Choose a PDF or DOCX file", type=["pdf", "docx"])
+st.markdown("### 📂 Upload Your Resume (PDF)")
+uploaded_file = st.file_uploader("Choose a PDF file", type=["pdf"])
 
 if uploaded_file is not None:
     st.success("Resume file uploaded successfully!")
