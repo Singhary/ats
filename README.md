@@ -37,5 +37,5 @@
 
 <h2>Deployment</h2>
 <p>
-  The app is deployed on <strong>Streamlit Cloud</strong>. <a href="https://your-app-link.streamlit.app">Access it here</a>.
+  The app is deployed on <strong>Streamlit Cloud</strong>. <a href="https://yourats.streamlit.app/">Access it here</a>.
 </p>
