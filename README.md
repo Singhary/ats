@@ -1,23 +1,41 @@
-ATS Resume Expert 📖
-An AI-powered Streamlit application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). The tool compares a user’s resume against a provided job description, offering detailed insights on strengths, skill improvements, missing keywords, and overall ATS compatibility.
+<h1>ATS Resume Expert 📖</h1>
+<p>
+  An AI-powered Streamlit application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). 
+  The tool compares a user’s resume against a provided job description, offering detailed insights on strengths, skill improvements, 
+  missing keywords, and overall ATS compatibility.
+</p>
 
-Features
-Resume Summary: Provides an overview of the candidate’s key strengths and achievements.
-Skill Improvement Suggestions: Identifies areas for skill enhancement and recommends additional training.
-Keyword Analysis: Highlights missing keywords based on the job description to increase ATS match.
-ATS Match Percentage: Calculates how well the resume aligns with the job description and suggests missing keywords.
-How to Use
-Enter Job Description: Copy and paste the job description in the provided text area.
-Upload Resume: Upload your resume in PDF or DOCX format.
-Select an Option:
-Resume Summary: Get a summary of the resume.
-Skill Improvements: See suggested skill improvements.
-Keyword Analysis: Check for missing keywords.
-ATS Match Percentage: Get an ATS match percentage score.
-Technologies Used
-Streamlit: For the web interface.
-PyMuPDF: For PDF processing.
-Google Generative AI: To analyze resume content.
-Pillow: For handling image files.
-Deployment
-The app is deployed on Streamlit Cloud. Access it here <a href='https://jpp9k3akxah7dn4jd583hq.streamlit.app/'>My App</a>
+<h2>Features</h2>
+<ul>
+  <li><strong>Resume Summary:</strong> Provides an overview of the candidate’s key strengths and achievements.</li>
+  <li><strong>Skill Improvement Suggestions:</strong> Identifies areas for skill enhancement and recommends additional training.</li>
+  <li><strong>Keyword Analysis:</strong> Highlights missing keywords based on the job description to increase ATS match.</li>
+  <li><strong>ATS Match Percentage:</strong> Calculates how well the resume aligns with the job description and suggests missing keywords.</li>
+</ul>
+
+<h2>How to Use</h2>
+<ol>
+  <li><strong>Enter Job Description:</strong> Copy and paste the job description in the provided text area.</li>
+  <li><strong>Upload Resume:</strong> Upload your resume in PDF or DOCX format.</li>
+  <li><strong>Select an Option:</strong>
+    <ul>
+      <li><strong>Resume Summary:</strong> Get a summary of the resume.</li>
+      <li><strong>Skill Improvements:</strong> See suggested skill improvements.</li>
+      <li><strong>Keyword Analysis:</strong> Check for missing keywords.</li>
+      <li><strong>ATS Match Percentage:</strong> Get an ATS match percentage score.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2>Technologies Used</h2>
+<ul>
+  <li><strong>Streamlit:</strong> For the web interface.</li>
+  <li><strong>PyMuPDF:</strong> For PDF processing.</li>
+  <li><strong>Google Generative AI:</strong> To analyze resume content.</li>
+  <li><strong>Pillow:</strong> For handling image files.</li>
+</ul>
+
+<h2>Deployment</h2>
+<p>
+  The app is deployed on <strong>Streamlit Cloud</strong>. <a href="https://your-app-link.streamlit.app">Access it here</a>.
+</p>
