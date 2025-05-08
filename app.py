@@ -11,7 +11,7 @@ import google.generativeai as genai
 
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-model = genai.GenerativeModel("gemini-1.5-pro")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 
 st.set_page_config(page_title="ATS Resume Expert 📖", page_icon="🔮", layout="centered")
@@ -79,7 +79,7 @@ with col3:
 with col4:
     submit4 = st.button("Check ATS Match Percentage")
 
-# Define prompts
+
 input_prompt1 = """
 Please analyze the provided resume and generate a comprehensive summary. 
 Highlight the candidate's key strengths, relevant experiences, notable achievements, and core skills. Additionally,
